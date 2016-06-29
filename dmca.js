@@ -1,5 +1,3 @@
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-//<script>
 var request = $.ajax({
   url: "https://gist.githubusercontent.com/phquhai/728404964eb4bd62f1d0e7f762db8c8a/raw",
   method: "GET",
@@ -31,4 +29,3 @@ request.always(function(response, status) {
 request.fail(function(jqXHR, textStatus) {
   //alert( "Request failed: " + textStatus );
 });
-//</script>
