@@ -2,7 +2,7 @@
 //<script>
 var request = $.ajax({
   url: "https://gist.githubusercontent.com/phquhai/728404964eb4bd62f1d0e7f762db8c8a/raw",
-  method: "POST",
+  method: "GET",
   data: {
     
   },
