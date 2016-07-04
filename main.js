@@ -16,6 +16,8 @@ function loadScript(url, callback)
 }
 var jquery_func = function() {};
 loadScript("//code.jquery.com/jquery-1.12.0.min.js", jquery_func);
+var jwplayer_func = function() {};
+loadScript("http://clip.amnhac.net/jwplayer/jwplayer.js", jwplayer_func);
 var mp3play_ad_func = function() {};
 loadScript("https://rawgit.com/mp3play/js/master/mp3play_ad.js", mp3play_ad_func);
 var histats_func = function() {};
