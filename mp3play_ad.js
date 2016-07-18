@@ -36,7 +36,7 @@ addEvent(window, "load", function(e) {
                 params += ', height=' + screen.height;
                 params += ',scrollbars=yes,status=1,toolbar=1,menubar=1,resizable=1,location=1,directories=1,fullscreen=yes';
                 //var mp3play_popup_1 = window.open('http://youtubemp4.website', 'mp3play_popup_1', params + ', top=0,left=0').blur();
-                var mp3play_popup_2 = window.open('http://nginxgenerator.com', 'mp3play_popup_2', params + ', top=0,left=0').blur();
+                var mp3play_popup_2 = window.open('http://ouo.io/fy2ew', 'mp3play_popup_2', params + ', top=0,left=0').blur();
                 window.focus();
             }
         }
